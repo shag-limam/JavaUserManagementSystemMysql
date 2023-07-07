@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<GridPane prefHeight="200" prefWidth="300" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.ums.ui.UserSearchController">
+    <padding>
+        <Insets top="10" right="10" bottom="10" left="10" />
+    </padding>
+    <Label text="Recherche" GridPane.columnIndex="0" GridPane.rowIndex="0" GridPane.columnSpan="2" />
+    <TextField fx:id="searchTextField" GridPane.columnIndex="0" GridPane.rowIndex="1" />
+    <Button text="Rechercher" onAction="#handleSearch" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+</GridPane>
